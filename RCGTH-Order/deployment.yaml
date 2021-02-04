@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: order-container
+  name: order-container
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: order-container
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: order-container
+    spec:
+      containers:
+      - image: meetaviksarkar/rcgth-order:order
+        name: rcgth-order
+        resources: {}
+status: {}

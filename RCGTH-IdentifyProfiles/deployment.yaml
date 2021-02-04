@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: identity-container
+  name: identity-container
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: identity-container
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: identity-container
+    spec:
+      containers:
+      - image: meetaviksarkar/rcgth-identity:identity
+        name: rcgth-identity
+        resources: {}
+status: {}

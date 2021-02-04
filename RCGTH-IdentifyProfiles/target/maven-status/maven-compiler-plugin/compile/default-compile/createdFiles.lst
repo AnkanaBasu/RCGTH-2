@@ -1,0 +1,11 @@
+com\cognizant\identifyprofiles\exception\ProductTypeNotFoundException.class
+com\cognizant\identifyprofiles\service\IdentifyProfilesService.class
+com\cognizant\identifyprofiles\clients\ProfileClient.class
+com\cognizant\identifyprofiles\exception\ExceptionResponse.class
+com\cognizant\identifyprofiles\exception\GlobalExceptionHandler.class
+com\cognizant\identifyprofiles\model\Product.class
+com\cognizant\identifyprofiles\model\Profile.class
+com\cognizant\identifyprofiles\service\IdentifyProfilesServiceImpl.class
+com\cognizant\identifyprofiles\model\Orders.class
+com\cognizant\identifyprofiles\RcgthIdentifyProfilesApplication.class
+com\cognizant\identifyprofiles\controller\IdentifyProfilesController.class

@@ -1,0 +1,7 @@
+com\cognizant\identifyprofiles\exception\ExceptionResponseTest.class
+com\cognizant\identifyprofiles\controller\IdentifyControllerTest.class
+com\cognizant\identifyprofiles\model\OrdersTest.class
+com\cognizant\identifyprofiles\model\ProfileTest.class
+com\cognizant\RcgthIdentifyProfilesApplicationTests.class
+com\cognizant\identifyprofiles\model\ProductTest.class
+com\cognizant\identifyprofiles\service\IdentifyProfileServiceTest.class

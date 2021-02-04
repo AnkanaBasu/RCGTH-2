@@ -1,0 +1,5 @@
+com\cognizant\entity\ProfileTest.class
+com\cognizant\exception\ExceptionResponseTest.class
+com\cognizant\service\ProfileServiceTest.class
+com\cognizant\controller\ProfileControllerTest.class
+com\cognizant\RcgthProfileApplicationTests.class

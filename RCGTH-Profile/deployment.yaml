@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: profile-container
+  name: profile-container
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: profile-container
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: profile-container
+    spec:
+      containers:
+      - image: meetaviksarkar/rcgth-profile:profile
+        name: rcgth-profile
+        resources: {}
+status: {}
